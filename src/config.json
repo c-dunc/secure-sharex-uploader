@@ -4,7 +4,6 @@
     "upload_directory": "/img",
     "file_name_length" : 5,
 
-
     "discord_event_logging": false,
     "discord_webook_urk": "https://discordapp.com/api/webhooks/*/*",
     "local_event_logging": false,
