@@ -1,6 +1,6 @@
 
 secrets = "secret"
-url = "http://localhost:5000"
+url = "http://localhost"
 projectname = "myproject"
 upload_directory = "img"
 webserver_port = 5000

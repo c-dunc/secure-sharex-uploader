@@ -18,7 +18,8 @@ def upload_file():
     file = request.files['file']
     filename = generate_filename(7) + '.png'
     file.save(os.path.join(f'src/core/{config.upload_directory}', filename))  # Save the file to the 'img' directory
-    return jsonify({'message': 'File uploaded successfully', 'filename': filename})
+    image_url = f"{config.url}:{config.webserver_port}/img/{filename}"
+    return jsonify({'message': 'File uploaded successfully', 'filename': filename, 'url': image_url})
 
 # Endpoint to serve images
 @app.route('/img/<filename>', methods=['GET'])
