@@ -1,7 +1,7 @@
 
-secrets = "mysecret"
+secrets = "secret"
 projectname = "myproject"
-upload_directory = "/img"
+upload_directory = "img"
 webserver_port = 5000
 
 discord_event_logging = False
