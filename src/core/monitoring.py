@@ -25,3 +25,4 @@ def check_vulnerable():
             vulnerable = True
         else:
             vulnerable = False
+    return vulnerable

@@ -21,6 +21,7 @@ def upload_file():
     image_url = f"{config.url}:{config.webserver_port}/img/{filename}"
     return jsonify({'message': 'File uploaded successfully', 'filename': filename, 'url': image_url})
 
+
 # Endpoint to serve images
 @app.route('/img/<filename>', methods=['GET'])
 def uploaded_file(filename):
