@@ -2,8 +2,7 @@
 secrets = "mysecret"
 projectname = "myproject"
 upload_directory = "/img"
-file_name_length : 6
-webserver_port = 8080
+webserver_port = 5000
 
 discord_event_logging = False
 discord_webook_urk = "https://discordapp.com/api/webhooks/*/*"

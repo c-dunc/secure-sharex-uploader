@@ -1,8 +1,7 @@
 import config
-import json
 
 from flask import Flask
-from core import routes
+from core.routes import routes
 
 def main():
     try:
