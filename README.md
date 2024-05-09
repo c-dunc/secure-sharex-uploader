@@ -9,9 +9,6 @@ secure-sharex-uploader
 └─ src
    ├─ build.py
    ├─ core
-   │  ├─ img - FOR DEMO
-   │  │  └─ RKhVddd.png
-   │  ├─ monitoring.py
    │  └─ routes.py
    ├─ main.py
    └─ modules
